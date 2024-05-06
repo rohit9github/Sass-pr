@@ -1,0 +1,419 @@
+// XL
+
+@media(max-width: 1399px) {}
+    .container{
+        max-width: 1320px;
+        .w-2{
+            .banner-image{
+                &::after{
+                    width: 70%;
+                    right: 15%;
+                }
+            }
+        }
+    }
+// LG
+
+@media(max-width: 1199px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+// MD
+
+@media(max-width: 991px) {
+    .w-md-1 {
+        width: 100%;
+    }
+
+    .w-md-2 {
+        width: 50%;
+    }
+
+    .banner {
+        padding: 150px 0;
+    }
+
+    .container {
+        max-width: 960px;
+
+        .toggle-menu {
+            display: block;
+            position: absolute;
+            right: 180px;
+        }
+
+        nav {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background-color: #0c0324;
+            display: none;
+            z-index: 9;
+
+            ul {
+                flex-direction: column;
+
+                li {
+                    padding: 12px 0;
+                    border-bottom: 1px solid #ffffff33;
+
+                    &:first-child {
+                        background-color: #4E10FF;
+
+                        a {
+                            color: white;
+                            border: none;
+
+                            &::after {
+                                background-color: transparent;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .w-2 {
+            .banner-content {
+                h1 {
+                    font-size: 50px;
+
+                    &::before {
+                        width: 100px;
+                        height: 32px;
+                        top: 70%;
+                        left: 58%;
+                    }
+                }
+
+                ul {
+                    li {
+                        h2 {
+                            font-size: 30px;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+
+            .banner-image {
+                &::after {
+                    width: 76%;
+                    right: 3%;
+                }
+
+                img {
+                    width: 350px;
+                }
+            }
+        }
+
+        .story-img {
+            background-color: #FFFFFF12;
+            padding-bottom: 130px;
+            border-radius: 8px;
+
+            img {
+                padding: 0 !important;
+                border-radius: 4px !important;
+            }
+
+            .story-img-content {
+                bottom: 25px !important;
+                left: 42px !important;
+
+                h3 {
+                    font-size: 18px !important;
+                }
+
+            }
+        }
+
+        .w-2 {
+            .story-content {
+                h2 {
+                    font-size: 50px !important;
+                }
+            }
+        }
+
+        .collection-title {
+            h2 {
+                font-size: 50px;
+            }
+        }
+
+        .collection-inner {
+            .w-4 {
+                .collection-items {
+                    margin-bottom: 30px;
+
+                    .collection-content {
+                        h4 {
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+        }
+
+        
+            .row{
+                align-items: center!important;
+                .w-30{
+                    .road-map-img{
+                        img{
+                            height: 710px!important;
+                        }
+                    }
+                }
+            }
+        
+
+        .our-team-title {
+            h2 {
+                font-size: 50px;
+            }
+        }
+
+        .team-inner {
+            .w-4 {
+                .team-items {
+                    margin-bottom: 30px;
+                }
+            }
+        }
+
+        .w-40 {
+            .testimonial-title {
+                h2 {
+                    font-size: 40px;
+                }
+            }
+        }
+
+        .w-60 {
+            .testimonial-content {
+                padding: 40px !important;
+                margin-left: 40px;
+
+                h2 {
+                    font-size: 30px;
+                }
+            }
+        }
+
+        .merchandise-title {
+            h2 {
+                font-size: 40px;
+            }
+        }
+
+        .our-blog-title {
+            h2 {
+                font-size: 50px;
+            }
+        }
+
+        .blog-inner {
+            .w-3 {
+                .blog-items {
+                    margin-bottom: 25px;
+                }
+            }
+        }
+
+        .news-letter-items {
+            form {
+                input {
+                    width: 100%;
+                }
+
+                a {
+                    width: 100%;
+                    margin: 10px 0 0 0 !important;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+
+// SM
+
+@media(max-width: 767px) {
+    .w-sm-1 {
+        width: 100%;
+    }
+
+    .w-sm-2 {
+        width: 50%;
+    }
+
+    .w-sm-3 {
+        width: 33.33%;
+    }
+
+    .container {
+        max-width: 720px;
+
+        .w-2 {
+            .banner-image {
+                padding: 24px;
+                margin-top: 30px;
+
+                &::after {
+                    width: 90%;
+                    right: -4%;
+                    bottom: -20px;
+                }
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .w-2 {
+            .story-img {
+                margin-bottom: 30px;
+            }
+        }
+
+        .row {
+            .w-2 {
+                .road-map-title-content {
+                    h2 {
+                        font-size: 50px;
+                    }
+                }
+            }
+        }
+        .row{
+            align-items: center!important;
+            .w-30{
+                .road-map-img{
+                    img{
+                        width: 100%!important;
+                        height: 100%!important;
+                    }
+                }
+            }
+        }
+
+        .row {
+            .w-40 {
+                .accordian-title {
+                    h2 {
+                        font-size: 50px;
+                    }
+                }
+            }
+        }
+
+        .w-60 {
+            .accordian-content {
+                margin-top: 30px;
+            }
+        }
+
+        .team-inner {
+            .w-4 {
+                .team-items {
+                    margin-right: 0;
+                }
+            }
+        }
+
+        .w-40 {
+            margin-bottom: 30px;
+
+            .testimonial-items {
+                .w-2 {
+                    .testimonial-img {
+                        img {
+                            width: 300px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .w-60 {
+            .testimonial-content {
+                margin-left: 0px;
+            }
+        }
+
+        .merchandise-inner {
+            .w-4 {
+                .merchandise-items {
+                    margin-bottom: 25px;
+                }
+            }
+
+        }
+
+        .blog-inner {
+            .w-3 {
+                .blog-items {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
+
+.our-team {
+    background-size: 30%!important;
+    padding: 40px 0;
+
+    &::after {
+        top: -45%;
+    }
+}
+
+.testimonial {
+    &::after {
+        background-size: 30%!important;
+    }
+}
+
+// XS
+
+@media(max-width: 575px) {
+    .w-xs-1 {
+        width: 100%;
+    }
+
+    .container {
+        max-width: 540px;
+
+        .w-40 {
+            margin-bottom: 30px;
+
+            .testimonial-items {
+                .w-2 {
+                    .testimonial-img {
+                        img {
+                            width: 230px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .merchandise-inner {
+            .w-4 {
+                .merchandise-items {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
